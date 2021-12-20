@@ -34,4 +34,5 @@ git checkout -b <branch_name>
 # Rename branch
 ```
 git branch -m <branch> <new_branch_name>
+git branch -M "<branch_name>" (other way)
 ```
