@@ -33,6 +33,8 @@ git checkout -b <branch_name>
 ```
 # Rename branch
 ```
-git branch -m <branch> <new_branch_name>
-git branch -M "<branch_name>" (other way)
+git branch -m <old_branch> <new_branch>
+git branch -M "<new_branch>" (other way)
+
+git push -u origin <new_branch>
 ```
