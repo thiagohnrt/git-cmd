@@ -38,3 +38,8 @@ git branch -M "<new_branch>" (other way)
 
 git push -u origin <new_branch>
 ```
+# Merge branch
+```
+git checkout <branch_main>
+git merge <branch_with_feature>
+```
