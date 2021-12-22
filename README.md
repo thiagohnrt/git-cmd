@@ -43,3 +43,8 @@ git push -u origin <new_branch>
 git checkout <branch_main>
 git merge <branch_with_feature>
 ```
+# Reset pushed commit
+```
+git reset --hard <commit_id>
+git push -f origin <branch_name>
+```
