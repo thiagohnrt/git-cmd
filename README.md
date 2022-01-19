@@ -48,3 +48,11 @@ git merge <branch_with_feature>
 git reset --hard <commit_id>
 git push -f origin <branch_name>
 ```
+# Delete branch
+```
+git branch <branch_name> -d
+```
+# Branch list
+```
+git branch -l
+```
