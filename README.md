@@ -56,3 +56,8 @@ git branch <branch_name> -d
 ```
 git branch -l
 ```
+# Commit History
+```
+git log
+git log --pretty=oneline (other way)
+```
