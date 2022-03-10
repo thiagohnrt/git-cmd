@@ -49,8 +49,13 @@ git reset --hard <commit_id>
 git push -f origin <branch_name>
 ```
 # Delete branch
+## Local
 ```
 git branch <branch_name> -d
+```
+## Remote
+```
+git push origin -d <branch_name>
 ```
 # Branch list
 ```
