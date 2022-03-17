@@ -1,9 +1,13 @@
 # Create a new repository
+#### Create an empty Git repository
+`git init`
+#### Add file contents to the index
+`git add <path|file_name>`
+#### Record changes to the repository
+`git commit -m "message"`
+#### Renaming the branch
+`git branch -M <branch_name>`
 ```
-git init
-git add <path|file_name>
-git commit -m "message"
-git branch -M <branch_name>
 git remote add origin <repository>
 git push -u origin <branch_name>
 ```
