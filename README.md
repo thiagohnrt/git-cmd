@@ -1,4 +1,4 @@
-# Create a new repository on the command line
+# Create a new repository
 ```
 git init
 git add <path|file_name>
@@ -7,7 +7,7 @@ git branch -M <branch_name>
 git remote add origin <repository>
 git push -u origin <branch_name>
 ```
-# Push an existing repository from the command line
+# Push an existing repository
 ```
 git remote add origin <repository>
 git branch -M <branch_name>
