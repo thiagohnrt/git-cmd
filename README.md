@@ -56,7 +56,6 @@ git config --global core.editor code
 git config --global --edit
 ```
 ![VS Code .gitconfig](/img/vscode_gitconfig.png "VS Code .gitconfig file")
-<script src="https://gist.github.com/thiagohbhonorato/264c1760666a92ba85b804b4172f650b.js"></script>
 
 # Repository
 ### Create a new repository
