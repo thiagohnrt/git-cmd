@@ -1,3 +1,6 @@
+# GIT Command
+[Repository](#Repository)
+
 # Repository
 ### Create a new repository
 ```
