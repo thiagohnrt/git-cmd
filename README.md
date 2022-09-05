@@ -24,8 +24,8 @@
 
 ### Install Git
 
-https://git-scm.com/downloads<br/>
-https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+<a href="https://git-scm.com/downloads">Download 🡥</a><br/>
+<a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Getting Started Installing Git 🡥</a>
 
 ### Identify
 ```
@@ -56,6 +56,8 @@ git config --global core.editor code
 git config --global --edit
 ```
 ![VS Code .gitconfig](/img/vscode_gitconfig.png "VS Code .gitconfig file")
+
+<a href="https://gist.github.com/thiagohbhonorato/264c1760666a92ba85b804b4172f650b" target="_blank">Gist .gitconfig 🡥</a>
 
 # Repository
 ### Create a new repository
