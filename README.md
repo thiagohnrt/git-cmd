@@ -1,4 +1,7 @@
 # GIT Command
+- [Getting Started - Setup](#git-setup)
+  - [Install Git](#install-git)
+  - [Identify](#identify)
 - [Repository](#repository)
   - [Create a new repository](#create-a-new-repository)
   - [Push an existing repository](#push-an-existing-repository)
@@ -16,6 +19,18 @@
   - [Branch list](#branch-list)
   - [Commit History](#commit-history)
 
+# Git Setup
+
+### Install Git
+
+https://git-scm.com/downloads<br/>
+https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+### Identify
+```
+git config --global user.name "Thiago Honorato"
+git config --global user.email thiagohonorato@example.com
+```
 
 # Repository
 ### Create a new repository
