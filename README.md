@@ -1,19 +1,23 @@
 # GIT Command
-[Repository](#repository)
+- [Repository](#repository)
 
-- [Create a new repository](#create-a-new-repository)
-- [Push an existing repository](#push-an-existing-repository)
-- [Clone repository with branch](#clone-repository-with-branch)
+  - [Create a new repository](#create-a-new-repository)
+  - [Push an existing repository](#push-an-existing-repository)
+  - [Clone repository with branch](#clone-repository-with-branch)
 
-[Branch](#branch)
+- [Branch](#branch)
 
-- [Update branch](#update-branch)
-- [Commit and push](#commit-and-push)
-- [Create new branch from current branch](#create-new-branch-from-current-branch)
-- [Rename branch](#rename-branch)
-- [Merge branch](#merge-branch)
-- [Reset pushed commit](#reset-pushed-commit)
-- [Delete branch](#celete-branch)
+  - [Update branch](#update-branch)
+  - [Commit and push](#commit-and-push)
+  - [Create new branch from current branch](#create-new-branch-from-current-branch)
+  - [Rename branch](#rename-branch)
+  - [Merge branch](#merge-branch)
+  - [Reset pushed commit](#reset-pushed-commit)
+  - [Delete branch](#celete-branch)
+    - [Local](#local)
+    - [Remote](#remote)
+  - [Branch list](#branch-list)
+  - [Commit History](#commit-history)
 
 
 # Repository
@@ -81,7 +85,7 @@ git push origin -d <branch_name>
 ```
 git branch -l
 ```
-### Commit History
+### Commit history
 ```
 git log
 git log --pretty=oneline (other way)
