@@ -1,12 +1,9 @@
 # GIT Command
 - [Repository](#repository)
-
   - [Create a new repository](#create-a-new-repository)
   - [Push an existing repository](#push-an-existing-repository)
   - [Clone repository with branch](#clone-repository-with-branch)
-
 - [Branch](#branch)
-
   - [Update branch](#update-branch)
   - [Commit and push](#commit-and-push)
   - [Create new branch from current branch](#create-new-branch-from-current-branch)
