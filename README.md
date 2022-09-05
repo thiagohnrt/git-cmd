@@ -2,6 +2,7 @@
 - [Getting Started - Setup](#git-setup)
   - [Install Git](#install-git)
   - [Identify](#identify)
+  - [SSH keys](#ssh-keys)
 - [Repository](#repository)
   - [Create a new repository](#create-a-new-repository)
   - [Push an existing repository](#push-an-existing-repository)
@@ -31,6 +32,23 @@ https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 git config --global user.name "Thiago Honorato"
 git config --global user.email thiagohonorato@example.com
 ```
+
+### SSH keys
+
+#### Checking for existing SSH keys
+```
+ls -al ~/.ssh
+```
+
+#### Generating a new SSH key
+```
+ssh-keygen -t ed25519 -C "thiagohonorato@example.com"
+```
+
+> Note: If you are using a legacy system that doesn't support the Ed25519 algorithm, use:
+> ```
+> $ ssh-keygen -t rsa -b 4096 -C "thiagohonorato@example.com"
+> ```
 
 # Repository
 ### Create a new repository
