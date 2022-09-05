@@ -50,6 +50,12 @@ ssh-keygen -t ed25519 -C "thiagohonorato@example.com"
 > $ ssh-keygen -t rsa -b 4096 -C "thiagohonorato@example.com"
 > ```
 
+### File .gitconfig
+```
+git config --global core.editor code
+git config --global --edit
+```
+
 # Repository
 ### Create a new repository
 ```
