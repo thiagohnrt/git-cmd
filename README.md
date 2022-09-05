@@ -3,6 +3,7 @@
   - [Install Git](#install-git)
   - [Identify](#identify)
   - [SSH keys](#ssh-keys)
+  - [File .gitconfig](#file-gitconfig)
 - [Repository](#repository)
   - [Create a new repository](#create-a-new-repository)
   - [Push an existing repository](#push-an-existing-repository)
