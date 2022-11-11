@@ -14,6 +14,7 @@
   - [Create new branch from current branch](#create-new-branch-from-current-branch)
   - [Rename branch](#rename-branch)
   - [Merge branch](#merge-branch)
+  - [Cherry pick commit](#cherry-pick-commit)
   - [Reset pushed commit](#reset-pushed-commit)
   - [Delete branch](#celete-branch)
     - [Local](#local)
@@ -106,6 +107,16 @@ git push -u origin <new_branch>
 ```
 git checkout <branch_main>
 git merge <branch_with_feature>
+```
+### Cherry pick commit
+Apply change from one branch to another.
+```
+git switch <branch_with_change>
+git log
+// copy commit id
+git switch <branch_destiny>
+git cherry-pick <commit_id>
+git push origin <branch_destiny>
 ```
 ### Reset pushed commit
 ```
