@@ -21,6 +21,7 @@
     - [Remote](#remote)
   - [Branch list](#branch-list)
   - [Commit History](#commit-history)
+  - [Change Commit Message](#change-commit-message)
 
 # Git Setup
 
@@ -140,4 +141,9 @@ git branch -l
 ```
 git log
 git log --pretty=oneline (other way)
+```
+### Change Commit Message
+Run the following command to amend (change) the message of the latest commit:
+```
+git commit --amend -m "New commit message."
 ```
