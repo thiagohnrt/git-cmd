@@ -16,12 +16,16 @@
   - [Merge branch](#merge-branch)
   - [Cherry pick commit](#cherry-pick-commit)
   - [Reset pushed commit](#reset-pushed-commit)
-  - [Delete branch](#celete-branch)
+  - [Delete branch](#delete-branch)
     - [Local](#local)
     - [Remote](#remote)
   - [Branch list](#branch-list)
   - [Commit History](#commit-history)
   - [Change Commit Message](#change-commit-message)
+- [Configuration](#config)
+  - [List configuration](#list-configuration)
+  - [Filename too long](#filename-too-long)
+
 
 # Git Setup
 
@@ -146,4 +150,18 @@ git log --pretty=oneline (other way)
 Run the following command to amend (change) the message of the latest commit:
 ```
 git commit --amend -m "New commit message."
+```
+# Config
+### List configuration
+List all variables set in config file, along with their values.
+```
+git config --list
+```
+To show the actual path where this setting is applied
+```
+git config --list --show-origin
+```
+### Filename too long
+```
+git config --system core.longpaths true
 ```
