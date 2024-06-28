@@ -19,6 +19,7 @@
   - [Delete branch](#delete-branch)
     - [Local](#local)
     - [Remote](#remote)
+    - [Delete all local branches except the current one](#delete-all-local-branches-except-the-current-one)
   - [Branch list](#branch-list)
   - [Commit History](#commit-history)
   - [Change Commit Message](#change-commit-message)
@@ -136,6 +137,10 @@ git branch <branch_name> -d
 #### Remote
 ```
 git push origin -d <branch_name>
+```
+#### Delete all local branches except the current one
+```
+git branch | grep -v "^\*" | xargs git branch -D
 ```
 ### Branch list
 ```
