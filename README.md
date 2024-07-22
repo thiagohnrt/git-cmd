@@ -102,12 +102,10 @@ git push origin <branch_name>
 ```
 git checkout -b <branch_name>
 ```
-### Rename branch
+### Rename local branch
 ```
 git branch -m <old_branch> <new_branch>
 git branch -M "<new_branch>" (other way)
-
-git push -u origin <new_branch>
 ```
 ### Merge branch
 ```
