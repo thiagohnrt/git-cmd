@@ -65,7 +65,7 @@ git config --global --edit
 ```
 ![VS Code .gitconfig](/img/vscode_gitconfig.png "VS Code .gitconfig file")
 
-<a href="https://gist.github.com/thiagohbhonorato/264c1760666a92ba85b804b4172f650b" target="_blank">Gist .gitconfig 🡥</a>
+<a href="https://gist.github.com/thiagohnrt/264c1760666a92ba85b804b4172f650b" target="_blank">Gist .gitconfig 🡥</a>
 
 # Repository
 ### Create a new repository
