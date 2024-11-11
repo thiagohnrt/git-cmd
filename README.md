@@ -12,7 +12,7 @@
   - [Update branch](#update-branch)
   - [Commit and push](#commit-and-push)
   - [Create new branch from current branch](#create-new-branch-from-current-branch)
-  - [Rename branch](#rename-branch)
+  - [Rename local branch](#rename-local-branch)
   - [Merge branch](#merge-branch)
   - [Cherry pick commit](#cherry-pick-commit)
   - [Reset pushed commit](#reset-pushed-commit)
@@ -23,6 +23,7 @@
   - [Branch list](#branch-list)
   - [Commit History](#commit-history)
   - [Change Commit Message](#change-commit-message)
+  - [Undo the last commit, keeping the changes](#undo-the-last-commit-keeping-the-changes)
 - [Configuration](#config)
   - [List configuration](#list-configuration)
   - [Filename too long](#filename-too-long)
@@ -153,6 +154,10 @@ git log --pretty=oneline (other way)
 Run the following command to amend (change) the message of the latest commit:
 ```
 git commit --amend -m "New commit message."
+```
+### Undo the last commit, keeping the changes
+```
+git reset --soft HEAD~1
 ```
 # Config
 ### List configuration
