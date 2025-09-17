@@ -16,6 +16,7 @@
   - [Merge branch](#merge-branch)
   - [Cherry pick commit](#cherry-pick-commit)
   - [Reset pushed commit](#reset-pushed-commit)
+  - [Revert pull request](#revert-pull-request)
   - [Delete branch](#delete-branch)
     - [Local](#local)
     - [Remote](#remote)
@@ -127,6 +128,11 @@ git push origin <branch_destiny>
 ```
 git reset --hard <commit_id>
 git push -f origin <branch_name>
+```
+### Revert pull request
+```
+git revert -m 1 <merge_id>
+git push origin <branch_name>
 ```
 ### Delete branch
 #### Local
