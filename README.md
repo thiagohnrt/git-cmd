@@ -1,4 +1,4 @@
-# GIT Command
+# Git Command
 - [Getting Started - Setup](#git-setup)
   - [Install Git](#install-git)
   - [Identify](#identify)
